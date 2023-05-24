@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    background: #15a9ed;
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-collapse {
+    z-index: 5;
+}
+
+div .navbar-light .navbar-toggler {
+    color: #145b96;
+    border: none;
+    box-shadow: none;
+}
+
+.fixed-top {
+    height: auto;
+}
+
+.swiper {
+    user-select: none;
+}
